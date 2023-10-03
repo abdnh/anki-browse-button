@@ -1,17 +1,23 @@
-<p>This add-on adds a button to the bottom of cards to browse the current card in the browser. While Anki already shows the current card in the browser when you click the Browse button by default, this doesn't work if you have a custom search text set in the preferences.</p>
+This add-on adds a button to the bottom of cards to browse the current card in the browser. While Anki already shows the current card in the browser when you click the Browse button by default, this doesn't work if you have a custom search text set in the preferences.
 
 <b>Styling</b>
 
-<p>You can style the icon in the styling section of your template using something like this:</p>
-<code class="language-css">browse-button::part(icon) {
+You can style the icon in the styling section of your template using something like this:
+
+<code class="language-css">
+browse-button::part(icon) {
     width: 128px;
 }
 </code>
-<p>To change the color of the icon, try something like this:</p>
-<code class="language-css">browse-button::part(path) {
+
+To change the color of the icon, try something like this:
+
+<code class="language-css">
+browse-button::part(path) {
     fill: red;
 }
 </code>
+
 
 <b>Changelog</b>
 
